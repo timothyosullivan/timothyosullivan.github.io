@@ -34,8 +34,8 @@ github_username:  timothyosullivan
 linkedin_username: osullivantimothyj
 
 # Build settings
-remote_theme: Jekyll-Garden/jekyll-garden.github.io
-#theme: minima
+#remote_theme: Jekyll-Garden/jekyll-garden.github.io
+theme: minima
 
 plugins:
   - jekyll-feed
