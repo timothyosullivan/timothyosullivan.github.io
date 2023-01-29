@@ -17,4 +17,4 @@ The reason for choosing rugby as an area of focus is simply because I love watch
 
 Accompanying the build out of product features will be a easy to follow step-by-step guide on getting the environment up and running.
 
-So, let's get going then. Click \[\[2023-01-29-deploying-web-server-locally\]\] to move to the first stage of getting our rugby site up and running.
+So, let's get going then. Click <a href="2023-01-29-deploying-web-server-locally.markdown">deploying web server locally</a> to move to the first stage of getting our rugby site up and running.
