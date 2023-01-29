@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rugby Series"
-date:   2022-01-29 15:33:00 +0100
+date:   2022-01-28 15:33:00 +0100
 categories: technical
 ---
 This blog series will document the experiences of building a rugby focused website that enables users to:
@@ -14,6 +14,6 @@ This blog series will document the experiences of building a rugby focused websi
 
 The reason for choosing rugby as an area of focus is simply because I love watching rugby so it makes it a natural product candidate for me!
 
-Accompanying the build out of product features will be a easy to follow step-by-step guide on
+Accompanying the build out of product features will be a easy to follow step-by-step guide on getting the environment up and running.
 
 So, let's get going then. Click Rugby Series 1 - Deploying a web server locally to move to the first stage of getting our rugby site up and running.

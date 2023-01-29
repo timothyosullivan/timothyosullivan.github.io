@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Technical Wanderings"
-date:   2023-01-28 12:38:53 +0100
+date:   2023-01-27 12:38:53 +0100
 categories: technical
 ---
 This is a personal blogging and accountability site to capture findings and insights in technical areas of interest. 
