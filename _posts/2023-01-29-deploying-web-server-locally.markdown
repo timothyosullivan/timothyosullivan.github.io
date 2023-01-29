@@ -16,7 +16,9 @@ Install the Java Development Kit (JDK) on your local machine to support compilin
 which will show content similar to below:
 
 <figure>
-<img src="2023-01-29-deploying-web-server-locally-media/c680a8a7bc19e14a3a71489aa88b95d84f6bc253.png" style="width:250px;height:50px;" />
+<img
+src="../media/rugby-blog-series-1.png"
+width="300" height="40" />
 </figure>
 
-This <a href="https://mkyong.com/java/how-to-install-java-on-mac-osx/">guide</a> is a good reference for using brew to install JDK on the your Mac.
+This <a href="https://mkyong.com/java/how-to-install-java-on-mac-osx/">deploying web server locally</a> is a good reference for using brew to install JDK on the your Mac.
