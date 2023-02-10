@@ -5,13 +5,13 @@ layout: post
 title: Deploy Local Web Server
 ---
 
-::: {style="border-radius: 10px; background: WhiteSmoke; padding: 10px; text: black"}
+<span style="border-radius: 10px; background: WhiteSmoke; padding: 10px; text: black">
     <span style="color: DarkSlateGray">
         <b>
             &#9432; previous entry in the blog series can be found <a href="https://timosullivan.org/rugby-series/">here</a>
         </b>
     </span>
-:::
+</span>
 
 In this entry, we will kick things off with getting a web server up and running locally. I am running on MacOS for reference. I am going to use Java as the runtime language for web server development and will be using Visual Studio Code as my IDE.
 
@@ -78,7 +78,7 @@ This command will compile the sources, execute any applicable JUnit tests and pa
 
 The console output should show:
 <p>
-<span style="color: MediumSeaGreen"><b>Build Success</b></s>
+    <span style="color: MediumSeaGreen"><b>Build Success</b></span>
 </p>
 
 ### 5. Run Sample Application
@@ -100,10 +100,10 @@ alt="400x30" />
 
 The response from the @RestController class will provide the initial base for building out the rugby statistics website but first, we want to get the server set up and running in the cloud. To see how this is done, let's keep things moving and jump to the next blog entry!
 
-::: {style="border-radius: 10px; background: WhiteSmoke; padding: 10px; text: black"}
+<span style="border-radius: 10px; background: WhiteSmoke; padding: 10px; text: black">
     <span style="color: DarkSlateGray">
         <b>
             &#9432; next entry in the blog series can be found <a href="https://timosullivan.org/rugby-series/">here</a>
         </b>
     </span>
-:::
+</span>
