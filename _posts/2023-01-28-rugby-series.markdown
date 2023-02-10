@@ -17,4 +17,12 @@ The reason for choosing rugby as an area of focus is simply because I love watch
 
 Accompanying the build out of product features will be a easy to follow step-by-step guide on getting the environment up and running.
 
-So, let's get going then. Click <a href="https://timosullivan.org/deploying-web-server-locally/">deploying web server locally</a> to move to the first stage of getting our rugby site up and running.
+So, let's get going then. 
+
+<span style="border-radius: 10px; background: WhiteSmoke; padding: 10px; text: black">
+    <span style="color: DarkSlateGray">
+        <b>
+            &#9432; click <a href="https://timosullivan.org/deploy-local-web-server/">deploy local web server</a> to move to the first stage of getting our rugby site up and running.
+        </b>
+    </span>
+</span>
