@@ -22,7 +22,7 @@ So, let's get going then.
 <span style="border-radius: 10px; background: WhiteSmoke; padding: 10px; text: black">
     <span style="color: DarkSlateGray">
         <b>
-            &#9432; click <a href="https://timosullivan.org/deploy-local-web-server/">deploy local web server</a> to move to the first stage of getting our rugby site up and running.
+            &#9432; click <a href="https://timosullivan.org/deploy-local-web-server/">deploy local web server</a> to get up and running.
         </b>
     </span>
 </span>
