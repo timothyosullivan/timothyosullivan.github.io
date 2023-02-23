@@ -103,7 +103,7 @@ The response from the @RestController class will provide the initial base for bu
 <span style="border-radius: 10px; background: WhiteSmoke; padding: 10px; text: black">
     <span style="color: DarkSlateGray">
         <b>
-            &#9432; next entry in the blog series can be found <a href="https://timosullivan.org/rugby-series/">here</a>
+            &#9432; next entry in the blog series can be found <a href="https://timosullivan.org/first-cloud-deployment/">here</a>
         </b>
     </span>
 </span>
