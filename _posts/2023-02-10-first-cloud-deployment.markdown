@@ -5,13 +5,13 @@ layout: post
 title: First Cloud Deployment
 ---
 
-::: {style="border-radius: 10px; background: WhiteSmoke; padding: 10px; text: black"}
+<span style="border-radius: 10px; background: WhiteSmoke; padding: 10px; text: black">
     <span style="color: DarkSlateGray">
         <b>
             &#9432; previous entry in the blog series can be found <a href="https://timosullivan.org/deploy-local-web-server/">here</a>
         </b>
     </span>
-:::
+</span>
 
 In this entry, we will are going to get the local web server that we got running previously, to be hosted on the cloud. The cloud provider that we will use for this blog series will be AWS.
 
@@ -69,31 +69,21 @@ The above is pretty self-explanatory but essentially the script will copy the ex
 The web app deployment can be easily tested by either navigating to the public ip of the EC2 instance as per the screenshot below:
 
 <figure>
-<img
-src="../media/rugby-blog-series-4.png"
-alt="400x30" />
-<figcaption aria-hidden="true">
-400x30
-</figcaption>
+    <img src="../media/rugby-blog-series-4.png" alt="400x30" />
 </figure>
 
 or by simply executing a curl command on the terminal window:
 
 <figure>
-<img
-src="../media/rugby-blog-series-5.png"
-alt="400x30" />
-<figcaption aria-hidden="true">
-400x30
-</figcaption>
+    <img src="../media/rugby-blog-series-5.png" alt="400x30" />
 </figure>
 
 Now that we have the web server up and running in the cloud, let's make the content served more meaningful for rugby fans by displaying a history of all international rugby matches. To see how this is done, let's keep things moving and jump to the next blog entry!
 
-::: {style="border-radius: 10px; background: WhiteSmoke; padding: 10px; text: black"}
+<span style="border-radius: 10px; background: WhiteSmoke; padding: 10px; text: black">
     <span style="color: DarkSlateGray">
         <b>
             &#9432; next entry in the blog series can be found <a href="https://timosullivan.org/rugby-fixtures-history/">here</a>
         </b>
     </span>
-:::
+</span>
