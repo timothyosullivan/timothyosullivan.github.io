@@ -69,13 +69,13 @@ The above is pretty self-explanatory but essentially the script will copy the ex
 The web app deployment can be easily tested by either navigating to the public ip of the EC2 instance as per the screenshot below:
 
 <figure>
-    <img src="../media/rugby-blog-series-4.png" alt="400x30" />
+    <img src="../media/rugby-blog-series-4.png" alt="200x30" />
 </figure>
 
 or by simply executing a curl command on the terminal window:
 
 <figure>
-    <img src="../media/rugby-blog-series-5.png" alt="400x30" />
+    <img src="../media/rugby-blog-series-5.png" alt="200x30" />
 </figure>
 
 Now that we have the web server up and running in the cloud, let's make the content served more meaningful for rugby fans by displaying a history of all international rugby matches. To see how this is done, let's keep things moving and jump to the next blog entry!
