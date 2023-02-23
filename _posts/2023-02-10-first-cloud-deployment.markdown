@@ -60,7 +60,8 @@ The shell script commands for the deployed EC2 server instance need to be encode
                 aws s3 cp s3://${S3BucketName}/rugby-app-1.0-SNAPSHOT.jar /home/ec2-user/rugby-app-deployment-1.0-SNAPSHOT.jar
                 sudo yum -y install java-17
                 cd /home/ec2-user/
-                sudo nohup java -jar rugby-app-deployment-1.0-SNAPSHOT.jar > rugby-app-deployment.log
+                sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8080
+                java -jar rugby-app-deployment-1.0-SNAPSHOT.jar > rugby-app-deployment.log
 
 The above is pretty self-explanatory but essentially the script will copy the executable Jar for the specified S3 bucket to the EC2 instance. It will then install the specified Java version and proceed to launch the executable Spring Boot rugby web app.
 
