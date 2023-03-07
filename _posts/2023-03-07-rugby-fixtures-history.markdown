@@ -24,7 +24,7 @@ In this entry, the target is to display a page that will show all historical int
 The first task is introduce parameters to capture user preferences for the name of the DB instance, the master user name, and the master user password. This is depicted in the screenshot below:
 
 <figure>
-    <img src="../media/rugby-blog-series-6.png" width: auto, height: 200px/>
+    <img src="../media/rugby-blog-series-6.png" width="auto" height="200px"/>
 </figure>
 
 Secondly, in the 'Resources' section of the YAML file, we need to indicate that an RDS DB instance needs to be created. The specification of the DB instance references the user inputed parameters in terms of DB instance name, master user name, and master user password. Additionally, we specify the DB engine (Postgres) and server instance (db.t3.micro) to use. 
