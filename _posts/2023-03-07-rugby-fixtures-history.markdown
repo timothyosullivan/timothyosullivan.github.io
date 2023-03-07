@@ -30,19 +30,19 @@ The first task is introduce parameters to capture user preferences for the name 
 Secondly, in the 'Resources' section of the YAML file, we need to indicate that an RDS DB instance needs to be created. The specification of the DB instance references the user inputed parameters in terms of DB instance name, master user name, and master user password. Additionally, we specify the DB engine (Postgres) and server instance (db.t3.micro) to use. 
 
 <figure>
-    <img src="../media/rugby-blog-series-7.png" alt="200x60" />
+    <img src="../media/rugby-blog-series-7.png" alt="200x30" />
 </figure>
 
 In the above screenshot, a VPC security group is also attached to the DB instance. This is the third important aspect to specify in the IaC script for establishing access to the DB instance. As per the below screenshot, the RDS instance will accept inbound Postgres TCP / IP connections over port 5432 from the security group associated with our EC2 web server instance.
 
 <figure>
-    <img src="../media/rugby-blog-series-8.png" alt="200x60" />
+    <img src="../media/rugby-blog-series-8.png" alt="200x30" />
 </figure>
 
 Finally, we update our 'user data' ec2 instance bootstrap script to include commands to export the RDS DB connection details to associated environment variables on instance startup. This is important as these details are needed when establishing the connection to the DB instance from the running web server java code.
 
 <figure>
-    <img src="../media/rugby-blog-series-9.png" alt="200x60" />
+    <img src="../media/rugby-blog-series-9.png" alt="200x30" />
 </figure>
 
 
@@ -52,8 +52,10 @@ Now that we have the DB instance created, the next step is to get historical rug
 
 To coordinate the load of historical match results, we introduce a new service class called 'HistoricalResultsService' which will be responsible for establishing a connection to the RDS DD datasource and then:
 
-    1. Checking the tables listing in the DB Information Schema to determine if a 'match' table already exists
-    2. If the table does not exist, then the service will upload the contents of a csv file dump to a newly created 'match' table 
+    1. Checking the tables listing in the DB Information Schema to determine 
+       if a 'match' table already exists
+    2. If the table does not exist, then the service will upload the contents 
+       of a csv file dump to a newly created 'match' table 
 
 The below screenshot shows the logic for populating the 'match' table:
 
@@ -68,7 +70,7 @@ We are going to use <a href="https://en.wikipedia.org/wiki/Jakarta_Persistence">
 The @Entity annotation declares that the class represents an entity. @Id declares the attribute which acts as the primary key of the entity.
 
 <figure>
-    <img src="../media/rugby-blog-series-11.png" alt="200x40" />
+    <img src="../media/rugby-blog-series-11.png" alt="200x20" />
 </figure>
 
 We are using <a href="https://spring.io/projects/spring-data-jpa">Spring Data JPA</a> offered by the Spring Java Application Framework for the JPA repository implementation. This supports all necessary CRUD operations.
@@ -80,13 +82,13 @@ Now we are on the home stretch as the last task is to simply present these recor
 We use <a href="https://www.thymeleaf.org/">Thymeleaf</a> as a server-side Java template engine to present a html page listing the rugby match results. This is quite straight forward and we simply reference the relevant 'Match' entity attributes in the HTML table definition as per the screenshot below:
 
 <figure>
-    <img src="../media/rugby-blog-series-12.png" alt="200x80" />
+    <img src="../media/rugby-blog-series-12.png" alt="200x50" />
 </figure>
 
 Finally, we make sure everything is working as expected by navigating to the relevant path on our browser and checking the table is shown as expected:
 
 <figure>
-    <img src="../media/rugby-blog-series-13.png" alt="200x80" />
+    <img src="../media/rugby-blog-series-13.png" alt="200x120" />
 </figure>
 
 All looking good but it would be nice if we could improve the user experience of finding the match results that most interests them e.g. perhaps they have a particular interest in a specific team in a year e.g. How did Ireland perform in 1995? So that's our next task, let's get a search engine capability deployed. To see how this is done, please jump to the next blog entry!
