@@ -24,7 +24,7 @@ Install the Java Development Kit (JDK) on your local machine to support compilin
 which will show content similar to below:
 
 <figure>
-    <img src="../media/rugby-blog-series-1.png" alt="200x30" />
+    <img src="../media/rugby-blog-series-1.png" awidth="auto" height="130px" />
 </figure>
 
 This <a href="https://mkyong.com/java/how-to-install-java-on-mac-osx/">guide</a> is a good reference for using brew to install JDK on a Mac OS.
@@ -40,7 +40,7 @@ You can confirm Maven is correctly installed and you have environment variable p
 This should return a response like the below:
 
 <figure>
-    <img src="../media/rugby-blog-series-2.png" alt="650x70" />
+    <img src="../media/rugby-blog-series-2.png" width="auto" height="130px"  />
 </figure>
 
 ### 3. Install Spring Boot
@@ -80,7 +80,7 @@ To run the sample application, execute the following command:
 This instantiates a web server that is listening on port 8080 which can be hit by running the following curl command from another terminal window:
 
 <figure>
-    <img src="../media/rugby-blog-series-3.png" alt="200x30" />
+    <img src="../media/rugby-blog-series-3.png" width="auto" height="130px"  />
 </figure>
 
 The response from the @RestController class will provide the initial base for building out the rugby statistics website but first, we want to get the server set up and running in the cloud. To see how this is done, let's keep things moving and jump to the next blog entry!
