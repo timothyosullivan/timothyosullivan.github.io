@@ -1,6 +1,65 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: page
+title: Home
+permalink: /
 ---
+
+# Hi, I’m Tim O'Sullivan 👋
+
+I build apps that make everyday life **simpler, more efficient, and more enjoyable**. For me, technology isn’t just about features—it’s about solving real problems and making life feel a little easier.
+
+Every time I hear that one of my apps has helped someone save time, reduce stress, or just made their day a bit smoother, it reminds me why I do what I do. That’s what drives me to keep creating and improving.
+
+---
+
+## My Apps 🚀
+
+Here are some of the tools I’ve built to make life easier. Click to explore:
+
+<div class="apps-grid">
+
+- **[App 1 Name](#link)**  
+  *Short description highlighting the problem it solves.*  
+  ![App 1 Screenshot](assets/images/app1.png)
+
+- **[App 2 Name](#link)**  
+  *Another tool that improves efficiency or enjoyment.*  
+  ![App 2 Screenshot](assets/images/app2.png)
+
+- **[App 3 Name](#link)**  
+  *A fun or experimental project.*  
+  ![App 3 Screenshot](assets/images/app3.png)
+
+</div>
+
+> Each app is **ad-free**, thoughtfully designed, and aimed at making real-world tasks simpler.
+
+---
+
+## Why Support Me ☕💡
+
+Your support here on [Buy Me a Coffee](https://buymeacoffee.com/zippee) helps me spend more time **building quality apps** instead of rushing them as side projects. Contributions go directly into:
+
+- Improving existing tools  
+- Developing new ideas  
+- Keeping apps ad-free and user-friendly  
+
+**By supporting me, you’re helping shape the future of the apps I create.**
+
+---
+
+## Stay Connected 🌐
+
+Follow my work and updates:
+
+- [GitHub](https://github.com/timothyosullivan)  
+- [Twitter](#)  
+- [LinkedIn](#)  
+
+Or explore my apps above—your time here is part of the journey!
+
+---
+
+*"Technology should make life feel a little easier. That’s what drives me every day."*
+
+
