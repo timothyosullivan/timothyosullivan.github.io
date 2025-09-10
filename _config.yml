@@ -20,7 +20,7 @@
 
 title: Technical Wanderings
 description: >- # this means to ignore newlines until "baseurl:"
-  Tech exploration & learning
+  Tech Exploration
 baseurl: "" # the subpath of your site, e.g. /blog
 show_downloads: true
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
