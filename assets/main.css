@@ -1,0 +1,45 @@
+.home-hero {
+  max-width: 700px;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.apps-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.app-card {
+  width: 250px;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.app-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.cta {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.cta .btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #ff813f;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta .btn:hover {
+  background-color: #e57230;
+}
