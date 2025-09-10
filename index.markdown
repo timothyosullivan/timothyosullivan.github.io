@@ -28,18 +28,6 @@ Here are some of the tools I’ve built to make life easier. Click to explore:
 
 ---
 
-## Stay Connected 🌐
-
-Follow my work and updates:
-
-- [GitHub](https://github.com/timothyosullivan)  
-- [Twitter](#)  
-- [LinkedIn](#)  
-
-Or explore my apps above—your time here is part of the journey!
-
----
-
 *"Technology should make life feel a little easier. That’s what drives me every day."*
 
 
