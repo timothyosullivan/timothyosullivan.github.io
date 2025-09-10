@@ -22,29 +22,9 @@ Here are some of the tools I’ve built to make life easier. Click to explore:
   *Short description highlighting the problem it solves.*  
   ![App 1 Screenshot](assets/images/app1.png)
 
-- **[App 2 Name](#link)**  
-  *Another tool that improves efficiency or enjoyment.*  
-  ![App 2 Screenshot](assets/images/app2.png)
-
-- **[App 3 Name](#link)**  
-  *A fun or experimental project.*  
-  ![App 3 Screenshot](assets/images/app3.png)
-
 </div>
 
 > Each app is **ad-free**, thoughtfully designed, and aimed at making real-world tasks simpler.
-
----
-
-## Why Support Me ☕💡
-
-Your support here on [Buy Me a Coffee](https://buymeacoffee.com/zippee) helps me spend more time **building quality apps** instead of rushing them as side projects. Contributions go directly into:
-
-- Improving existing tools  
-- Developing new ideas  
-- Keeping apps ad-free and user-friendly  
-
-**By supporting me, you’re helping shape the future of the apps I create.**
 
 ---
 
